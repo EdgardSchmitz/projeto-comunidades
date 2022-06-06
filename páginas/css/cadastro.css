@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(187, 163, 207);
+    color: #fff;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(55, 3, 128, 1) 74%, rgba(171, 119, 255, 1) 100%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.Titulo {
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 25px;
+    background-image: linear-gradient(180deg, rgba(230, 195, 254, 1) 4%, rgba(137, 74, 240, 1) 51%, rgba(242, 242, 242, 0.9976365546218487) 100%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: justify;
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+.login_form {
+    display: flex;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 58%;
+    top: 15px;
+}
+
+.login_form .email,
+.login_form .password {
+    padding-left: 10px;
+}
+
+.login_form .email .font,
+.login_form .password .font {
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: #fff;
+}
+
+.login_form .email input,
+.login_form .password input {
+    width: 150px;
+    height: 23px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.login_btn {
+    height: 24px;
+    width: 90px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(142deg, rgb(42, 23, 51) 0%, rgba(55, 3, 128, 1) 74%, rgba(171, 119, 255, 1) 100%);
+    border: 1px solid rgb(90, 33, 196);
+}
+
+.login_btn:hover {
+    background: linear-gradient(142deg, rgb(106, 57, 129) 0%, rgb(98, 11, 219) 74%, rgb(210, 184, 252) 100%);
+}
+
+section {
+    height: 675px;
+    width: 50%;
+    top: 800px;
+    background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(55, 3, 128, 1) 74%, rgba(171, 119, 255, 1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logobody {
+    width: 65%;
+}
+
+.logo_body {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.logo_body .like_font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.logo_body .font1 {
+    color: rgb(119, 0, 255);
+    margin-left: 8%;
+    margin-bottom: 5px;
+}
+
+.singup_body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 57%;
+}
+
+.singup_body .acc_crt {
+    font-size: 40px;
+    margin: 25px 0;
+    color: rgb(119, 0, 255);
+}
+
+.singup_body .free_hint {
+    margin: -20px 5px;
+    font-size: 18px;
+    color: rgb(30, 17, 65);
+}
+
+.singup_body .signup_form input {
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid rgb(119, 0, 255);
+    border-radius: 4px;
+}
+
+.singup_body .signup_form .lastname {
+    margin-left: 15px;
+}
+
+.singup_body .signup_form .email,
+.singup_body .signup_form .password,
+.singup_body .signup_form .password2 {
+    margin-top: 20px;
+    width: 410px;
+}
+
+.singup_body .signup_form .birthday {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(119, 0, 255);
+}
+
+.singup_body .signup_form .birth_date {
+    margin-top: 5px;
+}
+
+.singup_body .signup_form .month,
+.singup_body .signup_form .day,
+.singup_body .signup_form .year {
+    height: 28px;
+}
+
+.singup_body .signup_form .day,
+.singup_body .signup_form .year {
+    margin-left: -5px;
+}
+
+.singup_body .signup_form .brth_hint {
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+
+.singup_body .signup_form a {
+    text-decoration: none;
+}
+
+.singup_body .signup_form a:hover {
+    text-decoration: underline;
+}
+
+.singup_body .signup_form input[type="radio"] {
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.singup_body .signup_form input[value="famele"] {
+    margin-left: -100px;
+}
+
+.singup_body .signup_form .font {
+    margin-left: 57px;
+    margin-top: -17px;
+    color: rgb(119, 0, 255);
+}
+
+.singup_body .signup_form .font2 {
+    margin-left: 200px;
+    color: rgb(119, 0, 255);
+}
+
+.singup_body .signup_form .agreement {
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: rgb(119, 0, 255);
+}
+
+.singup_body .signup_form .agreement a {
+    color: blue;
+    cursor: pointer;
+}
+
+.singup_body .signup_form .signup {
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(142deg, rgb(42, 23, 51) 0%, rgba(55, 3, 128, 1) 74%, rgba(171, 119, 255, 1) 100%);
+    border: 1px solid rgb(90, 33, 196);
+    color: #fff;
+    margin-left: 20%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.singup_body .signup_form .signup:hover {
+    background: linear-gradient(142deg, rgb(106, 57, 129) 0%, rgb(98, 11, 219) 74%, rgb(210, 184, 252) 100%);
+}

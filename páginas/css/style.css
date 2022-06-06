@@ -1,0 +1,181 @@
+body {
+    background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(55, 3, 128, 1) 74%, rgba(171, 119, 255, 1) 100%);
+    color: #fff;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    width: 92%;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Barra de Navegação */
+
+.navegacao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.icon_nav {
+    width: 32px;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.navegacao .nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    background-color: none;
+    display: flex;
+}
+
+.navegacao li {
+    display: inline;
+    font-size: 18px;
+}
+
+.navegacao li a {
+    color: #fff;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+}
+
+.navegacao li a:hover {
+    background-color: rgba(226, 157, 247, 0.219);
+    color: white;
+    border-radius: 20px;
+}
+
+.bar_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+
+.cadastro {
+    margin-left: 50%;
+}
+
+.cadastrar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Fim barra de navegação */
+
+
+/* Lado esquerdo apresentação */
+
+.Titulo {
+    background-image: linear-gradient(180deg, rgba(230, 195, 254, 1) 4%, rgba(137, 74, 240, 1) 51%, rgba(242, 242, 242, 0.9976365546218487) 100%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: justify;
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+.texto_principal {
+    text-align: justify;
+    font-size: 22px;
+}
+
+#imagem1 {
+    width: 51%;
+    margin-left: 50px;
+}
+
+
+/* Fim Lado esquerdo apresentação */
+
+
+/* Lado Direito Login */
+
+.card {
+    border-radius: 30px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 70px;
+    padding-top: 12%;
+    padding-bottom: 21%;
+    width: 200px;
+    margin-top: 35%;
+    margin-right: 100px;
+    transition: all 0.3s ease-out;
+    background: linear-gradient(90deg, rgba(148, 2, 251, 0.3925945378151261) 0%, rgba(165, 112, 250, 0.5410539215686274) 44%, rgba(242, 242, 242, 0.30015756302521013) 100%);
+}
+
+.titulo_login {
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(230, 195, 254, 1) 4%, rgb(215, 201, 238) 51%, rgba(242, 242, 242, 0.9976365546218487) 100%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+input {
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.myButton {
+    margin-top: 20px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(180deg, rgba(230, 195, 254, 1) 4%, rgba(137, 74, 240, 1) 51%, rgba(242, 242, 242, 0.9976365546218487) 100%);
+    background-color: #8b08e2;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 12px 46px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+    margin-left: 13%;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.myButton:hover {
+    background: linear-gradient(180deg, rgba(196, 119, 249, 1) 4%, rgba(137, 74, 240, 1) 51%, rgba(196, 163, 242, 0.9976365546218487) 100%);
+    background-color: #408c99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/* Fim Lado Direito Login */
