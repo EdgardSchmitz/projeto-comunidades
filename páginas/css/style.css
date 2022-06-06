@@ -11,7 +11,7 @@ main {
     width: 92%;
     margin-left: 100px;
     margin-right: 150px;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -23,6 +23,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: left;
+    margin-top: 10px;
 }
 
 .icon {
