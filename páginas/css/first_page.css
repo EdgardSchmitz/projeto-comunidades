@@ -7,7 +7,7 @@
 }
 
 body{
-    background: rgb(187, 163, 207);
+    background: rgb(255, 255, 255);
 }
 
 nav{
@@ -15,16 +15,20 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(55, 3, 128, 1) 74%, rgba(171, 119, 255, 1) 100%);
-    padding: 5px 5%;
+    padding: 9px 5%;
     color: rgb(161, 96, 221);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
 }
 
 .logo{
-    width: 160px;
+    width: 60px;
     margin-right: 45px;
 }
 
-.nav_left{
+.nav_left, .nav_right{
     display: flex;
     align-items: center;
 }
@@ -39,8 +43,13 @@ nav{
     margin: 0 15px;
 }
 
+.nav_left ul li a {
+    text-decoration: none;
+    color:#ccc;
+}
+
 .nav_left img{
-    width: 32px;
+    width: 190px;
     margin-right: 55px;
     margin-left: 0px;
 }
@@ -48,3 +57,115 @@ nav{
 .nav_left h1{
     margin-right: 15px;
 }
+
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-user-icon{
+    margin-left: 30px;
+}
+
+.search-box{
+    background:rgb(187, 163, 207);
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.search-box span{
+    width: 18px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.online{
+    position: relative;
+}
+
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    background: rgb(1, 201, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
+
+.right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
+
+.main-content{
+    flex-basis: 47%;
+
+}
+
+.imp-links a, .shortcut-links a{
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: rgb(115, 1, 209);
+    width:fit-content;
+}
+
+.imp-links a span{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.imp-links a:last-child{
+    color: rgb(145, 68, 209);
+
+}
+
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+
+
+.shortcut-links a img{
+    width:40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.shortcut-links p{
+    margin: 25px 0;
+    color: rgb(115, 1, 209);
+    font-weight: 5px;
+}
+
+
